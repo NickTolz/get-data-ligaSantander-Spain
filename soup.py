@@ -40,5 +40,5 @@ for  i in pt:
 df = pd.DataFrame({"Nombre":equipos, "Puntos":puntos}, index=list(range(1,21)))
 print(df)
 
-df.to_csv('Clasificacion.csv', index=False)
-
+# GET FILE CSV
+#df.to_csv('Clasificacion.csv', index=False)
