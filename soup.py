@@ -10,7 +10,6 @@ soup = BeautifulSoup(page.content, 'html.parser')
 
 #Equipos
 eq = soup.find_all('span', class_='nombre-equipo')
-eq2 = soup.find_all('a', rel='nofollow')
 
 equipos = list()
 count = 0
