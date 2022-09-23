@@ -37,21 +37,6 @@ for  i in pt:
     count += 1
 
 
-#Redes sociales
-redes = list()
-oj = list()
-h = list()
-for i in eq2:
-    redes.append(i)
-    oj.append(i.get('href'))
-
-print("\nRedes Sociales:")
-for x in range(2,6):
-    print(oj[x])
-    h.append(oj[x])
-        
-
-print("\n")
 df = pd.DataFrame({"Nombre":equipos, "Puntos":puntos}, index=list(range(1,21)))
 print(df)
 
